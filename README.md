@@ -1,0 +1,2 @@
+# A-Day-in-the-Life-of-a-SOC-Level-1-Analyst-TryHackMe-
+his project is based on my hands-on experience completing the **TryHackMe room** that simulates a typical shift as a Tier 1 SOC Analyst (also known as a Junior/Associate Security Analyst). In this scenario, I took on the role of a triage specialist, monitoring, investigating, and escalating security alerts in a simulated corporate environment.
