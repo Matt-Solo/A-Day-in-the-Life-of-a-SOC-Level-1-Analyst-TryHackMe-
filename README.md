@@ -1,8 +1,9 @@
 ## 🧑‍💻 A Day in the Life of a Junior (Associate) Security Analyst
 
+🔗 **Live Repo:** [github.com/Matt-Solo/junior-soc-analyst-lab](https://github.com/Matt-Solo/junior-soc-analyst-lab)
+
 This repository documents my hands-on experience completing the **TryHackMe simulation** designed to reflect the role of a Tier 1 SOC Analyst. In this lab, I worked through a real-world alert triage scenario using a virtual SOC dashboard, mimicking enterprise security operations.
 
----
 
 ### 🔍 My Responsibilities During the Simulation
 
@@ -31,6 +32,7 @@ This repository documents my hands-on experience completing the **TryHackMe simu
 - Gained proficiency in identifying IOCs and verifying threats with public intel tools
 - Strengthened critical thinking, log analysis, and containment planning
 - Built confidence working in fast-paced, real-world-like SOC environments
+
 
 > 💬 This simulation allowed me to apply practical skills in a structured environment, preparing me for real-world junior SOC analyst roles.
 
