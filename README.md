@@ -1,40 +1,62 @@
-## 🧑‍💻 SOC-Tier-1-Workflow-Simulation
+🚨 SOC Tier 1 Workflow Simulation — Monitoring, Triage & Escalation
+🎯 Project Overview
 
 🔗 **Live Repo:** [github.com/Matt-Solo/junior-soc-analyst-lab](https://github.com/Matt-Solo/junior-soc-analyst-lab)
 
-This repository documents my hands-on experience completing the **TryHackMe simulation** designed to reflect the role of a Tier 1 SOC Analyst. In this lab, I worked through a real-world alert triage scenario using a virtual SOC dashboard, mimicking enterprise security operations.
 
+This project simulates the day-to-day responsibilities of a Security Operations Center (SOC) Tier 1 Analyst, focusing on alert monitoring, investigation, prioritization, and escalation within a structured incident response workflow.
 
-### 🔍 My Responsibilities During the Simulation
+The objective is to demonstrate how security events are handled in a real SOC environment — from initial detection to escalation and reporting.
 
-- **Lab Environment Setup**: Launched a simulated SOC dashboard with tools like SIEM, IDS/IPS, email logs, and network monitoring—designed to mirror real-world conditions.
-- **Alert Review & Ticket Analysis**: Identified and prioritized alerts using details such as alert type, source/destination IPs, and detection timestamps.
-- **Log Investigation**: Examined IDS/IPS logs, email headers, and network activity for indicators of compromise like suspicious files, brute-force attempts, or data exfiltration.
-- **Threat Intelligence Validation**: Used OSINT tools like VirusTotal, AbuseIPDB, and Shodan to validate malicious IPs, file hashes, and domains.
-- **Question-Based Assessment**: Answered targeted questions about the nature of the attack, affected users, and IOCs, reinforcing my investigative process.
-- **Remediation Planning**: Suggested containment actions such as blocking the IP, isolating affected hosts, and resetting credentials—highlighting my understanding of incident response best practices.
+🧪 Environment
+Platform: TryHackMe SOC Simulation
+Tools: SIEM dashboards, security alerts
+Focus Areas: Alert triage, investigation, escalation
 
----
+🔍 SOC Workflow Process
+1. Alert Monitoring
+Continuously monitored incoming alerts from security tools
+Identified potentially suspicious activities based on alert severity
 
-### 🛠️ Tools and Techniques Used
+3. Alert Triage
+Assessed alerts to determine if they were:
+False positives
+Benign activity
+Potential security incidents
 
-- SIEM/EDR dashboards for alert triage
-- IDS/IPS, email, and network log analysis
-- VirusTotal, AbuseIPDB, Shodan (OSINT)
-- Threat detection and validation
-- Documentation and structured investigation
+5. Investigation
+Analysed available logs and alert data
+Correlated related events to understand context
+Identified indicators of compromise (IOCs)
 
----
+7. Prioritization
+Classified incidents based on severity and impact
+Determined urgency for escalation
 
-### 🎯 Key Takeaways
+9. Escalation
+Escalated confirmed or high-risk incidents to higher-level analysts
+Documented findings clearly for handover
 
-- Developed end-to-end experience in triaging, investigating, and escalating SOC alerts
-- Gained proficiency in identifying IOCs and verifying threats with public intel tools
-- Strengthened critical thinking, log analysis, and containment planning
-- Built confidence working in fast-paced, real-world-like SOC environments
+11. Documentation
+Recorded investigation steps and findings
+Maintained structured incident notes for reporting and auditing
 
+📊 Key Outcomes
+Improved ability to triage alerts efficiently
+Strengthened log analysis and correlation skills
+Gained practical understanding of SOC workflows
+Developed structured incident documentation approach
 
-> 💬 This simulation allowed me to apply practical skills in a structured environment, preparing me for real-world junior SOC analyst roles.
+🛠️ Skills Demonstrated
+SIEM monitoring and alert triage
+Incident investigation and escalation
+Threat detection and analysis
+Security event correlation
+Incident reporting
+
+📸 Evidence
+
+Screenshots and supporting evidence are included within this repository, demonstrating alert analysis and investigation steps.
 
 > ![image](https://github.com/user-attachments/assets/ef4000bc-fa78-4413-80a9-7a7996bf86a1)
 > ![image](https://github.com/user-attachments/assets/f2060ab3-6656-4f58-a4d4-3e63a9a9c9f0)
@@ -51,7 +73,9 @@ This repository documents my hands-on experience completing the **TryHackMe simu
 > ![Lab questions](https://github.com/user-attachments/assets/c0bc2dd0-f7fd-4a14-9b4c-5f415a5c5ec9)
 
 
+🎯 Conclusion
 
+This project reflects practical SOC Tier 1 responsibilities and demonstrates the ability to monitor, analyse, and respond to security events in a structured and efficient manner.
 
 
 
