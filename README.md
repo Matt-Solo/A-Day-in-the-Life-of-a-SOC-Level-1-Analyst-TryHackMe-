@@ -1,4 +1,4 @@
-## 🧑‍💻 A Day in the Life of a Junior (Associate) Security Analyst
+## 🧑‍💻 SOC-Tier-1-Workflow-Simulation
 
 🔗 **Live Repo:** [github.com/Matt-Solo/junior-soc-analyst-lab](https://github.com/Matt-Solo/junior-soc-analyst-lab)
 
