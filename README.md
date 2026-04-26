@@ -1,59 +1,63 @@
-🚨 SOC Tier 1 Workflow Simulation — Monitoring, Triage & Escalation
-🎯 Project Overview
+🚨 🛡️ SOC Tier 1 Operations Simulation — Alert Monitoring, Triage & Escalation
 
-🔗 **Live Repo:** [github.com/Matt-Solo/junior-soc-analyst-lab](https://github.com/Matt-Solo/junior-soc-analyst-lab)
+🔗 Live Repo: https://github.com/Matt-Solo/junior-soc-analyst-lab 
 
+🎯 Objective
 
-This project simulates the day-to-day responsibilities of a Security Operations Center (SOC) Tier 1 Analyst, focusing on alert monitoring, investigation, prioritization, and escalation within a structured incident response workflow.
-
-The objective is to demonstrate how security events are handled in a real SOC environment — from initial detection to escalation and reporting.
+Simulate real-world SOC Tier 1 operations by performing continuous alert monitoring, triage, investigation, prioritization, and escalation within a structured incident response workflow.
 
 🧪 Environment
+
 Platform: TryHackMe SOC Simulation
-Tools: SIEM dashboards, security alerts
-Focus Areas: Alert triage, investigation, escalation
+Tools: Splunk (SIEM), Security Alerts, Log Data
+Focus Areas: Alert triage, incident investigation, escalation
 
-🔍 SOC Workflow Process
+📊 Log Volume
+
+Analyzed ~800–1,200 security events during simulation scenarios
+
+🚨 Scenario
+
+Monitored incoming alerts generated from simulated security events, including suspicious authentication attempts and anomalous system activity.
+
+🧠 Investigation Workflow
 1. Alert Monitoring
-Continuously monitored incoming alerts from security tools
-Identified potentially suspicious activities based on alert severity
-
-3. Alert Triage
-Assessed alerts to determine if they were:
-False positives
-Benign activity
-Potential security incidents
-
-5. Investigation
-Analysed available logs and alert data
-Correlated related events to understand context
-Identified indicators of compromise (IOCs)
-
-7. Prioritization
-Classified incidents based on severity and impact
-Determined urgency for escalation
-
-9. Escalation
-Escalated confirmed or high-risk incidents to higher-level analysts
-Documented findings clearly for handover
-
-11. Documentation
-Recorded investigation steps and findings
-Maintained structured incident notes for reporting and auditing
-
-📊 Key Outcomes
-Improved ability to triage alerts efficiently
-Strengthened log analysis and correlation skills
-Gained practical understanding of SOC workflows
-Developed structured incident documentation approach
-
+Monitored incoming alerts within SIEM dashboards
+Identified suspicious activities based on severity and behavioral patterns
+2. Alert Triage
+Classified alerts as false positives, benign activity, or potential security incidents
+Prioritized alerts based on risk level and potential impact
+3. Investigation
+Analyzed alert data and correlated related log events
+Identified Indicators of Compromise (IOCs)
+Validated suspicious activity using contextual log analysis
+4. Prioritization
+Assessed severity based on business impact and threat likelihood
+Determined escalation requirements
+5. Escalation
+Escalated high-risk or confirmed incidents to higher-tier analysts
+Provided structured investigation summaries for handover
+6. Documentation
+Produced clear and structured incident reports
+Maintained detailed investigation notes aligned with SOC workflows
+🔎 Key Findings
+Identified suspicious login activity and anomalous alert patterns
+Differentiated between false positives and real threats
+Improved accuracy in alert prioritization and escalation decisions
+🧬 MITRE ATT&CK Mapping
+T1110 — Brute Force (simulated scenarios)
+T1078 — Valid Accounts
+✅ Outcome / Impact
+Strengthened ability to triage and investigate alerts in a SOC environment
+Improved log correlation and threat identification skills
+Developed structured approach to incident reporting and escalation
 🛠️ Skills Demonstrated
-SIEM monitoring and alert triage
-Incident investigation and escalation
-Threat detection and analysis
-Security event correlation
-Incident reporting
-
+SIEM Monitoring (Splunk)
+Alert Triage & Prioritization
+Incident Investigation
+Log Correlation & Analysis
+Threat Detection
+Incident Reporting & Escalation
 📸 Evidence
 
 Screenshots and supporting evidence are included within this repository, demonstrating alert analysis and investigation steps.
